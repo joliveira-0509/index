@@ -150,9 +150,11 @@ header .fundo {
 }
 
 header .fundo .logo img {
+	
 	width: 45px;
 	height: 45px;
 	border-radius: 50px;
+	right: 100px;
 }
 
 header .fundo .menu-desktop ul {

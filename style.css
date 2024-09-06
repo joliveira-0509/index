@@ -178,13 +178,18 @@ tr,td {
     text-align: left;
 }
 
+tr > td > button{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
 #color {
     background-color: lightgreen;
     width: 100%;
     height: 100%;
 }
 
-button.full-width {
+button {
     width: 100%;
     height: 100%;
     background-color: transparent;
