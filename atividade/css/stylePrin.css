@@ -69,13 +69,21 @@ table {
 
 .reparte{
 	display: flex;
-	flex-direction: column;
-	justify-content:space-between;
-	width: 50%;
+	justify-content:space-around;
+	width: 100%;
 }
 
-.reparte .anuncio{
-	background-color: cyan;
-	border: 2px;
-	border-radius: 20px;
+.reparte .anuncio .box-anucio{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.reparte .anuncio .box-anucio img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
