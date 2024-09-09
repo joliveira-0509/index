@@ -1,0 +1,72 @@
+<section class="especialidades">
+            <div class="interFace">
+                <h2 class="titulo">Minhas<span> Especialidades</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>HTML:5</h3>
+                        <p>Desenvolvimento em HTML:5</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Desenvolvimento em JavaScript</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-css"></i>
+                        <h3>CSS</h3>
+                        <p>Desenvolvimento em CSS</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-py"></i>
+                        <h3>Python</h3>
+                        <p>Desenvolvimento em Python</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-sql"></i>
+                        <h3>SQL</h3>
+                        <p>Desenvolvimento em SQL</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-file-earmark-word"></i>
+                        <h3>Word</h3>
+                        <p>Manuseio da Ferramenta Microsoft-Word</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-file-earmark-ppt"></i>
+                        <h3>PowerPoint</h3>
+                        <p>Manuseio da Ferramenta Microsoft-PowerPoint</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <i class="bi bi-file-earmark-excel"></i>
+                        <h3>Excel</h3>
+                        <p>Manuseio da Ferramenta Microsoft-Excel</p>
+                    </div>
+                </div>
+            </div>
+            <!--Interface-->
+        </section>
+        <!--Especialidades-->>
+
+        <footer>
+        <div class="interFace">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo2.png" alt="">
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/joao_vitorsilvaoliveira/"><button><i
+                                    class="bi bi-instagram"></i></button></a>
+                    </div>
+                </div>
+                <div class="borda"></div>
+            </div>
+            <div class="line-footer">
+                <p><i class="bi bi-envelope-at-fill"></i><a href="mailto:joaovitorsilvaoliveira82@gmail.com">
+                        joaovitorsilvaoliveira82@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>

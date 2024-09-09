@@ -148,22 +148,27 @@ table {
 }
 
 .topo-site .img1 img {
+	margin-top: 35px;
+	margin-left: 25px;
 	width: 200px;
 	height: 200px;
 
 }
 
 .topo-site .text {
+	margin-top: 35px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	height: 50%;
 	width: 40%;
-	font-size: 23px;
+	font-size: 20px;
 }
 
 
 .topo-site .img2 img {
+	margin-right: 25px;
+	border-radius: 24px;
 	height: 200px;
 	width: 200px;
 	position: relative;
@@ -213,8 +218,12 @@ table {
 	width: 100%;
 	height: 50vh;
 }
+.box .tabela tr p{
+	margin: 15px 0px 15px 20px;
+}
 
-td #check i{
+td i{
+	margin: 0px 20px 0px 30px;
 	font-size: 20px;
 	width: 50px;
 	height: 50px;
@@ -228,5 +237,5 @@ td {
 }
 
 td p{
-	font-size: 25px;
+	font-size: 20px;
 }
