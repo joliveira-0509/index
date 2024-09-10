@@ -143,7 +143,7 @@ header .fundo {
 	background: linear-gradient(to right, #000000, #040C52);
 	display: flex;
 	flex-direction: row;
-	height: 50px;
+	height: 15%;
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
@@ -168,7 +168,8 @@ header .fundo .menu-desktop ul {
 
 header .fundo .menu-desktop ul li a {
 	text-decoration: none;
-	font-size: 10px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
 	color: aliceblue;
 }
 
@@ -216,7 +217,7 @@ header .fundo .menu-desktop ul li a {
 
 .menu-mobile .btn-fechar i {
 	color: #5305acd0;
-	font-size: 20px;
+	font-size: 30px;
 
 }
 
@@ -225,6 +226,7 @@ header .fundo .menu-desktop ul li a {
 }
 
 .menu-mobile nav ul li a {
+	text-decoration: none;
 	color: #ffffff;
 	font-size: 15px;
 	font-weight: 300;
@@ -261,7 +263,7 @@ footer .contato button {
 	padding: 10px 40px;
 	font-size: 18px;
 	font-weight: 600;
-	background: linear-gradient(to right, #02083f, #450563);
+	background: linear-gradient(to right, #22013c, #450563);
 	;
 	border: 0;
 	border-radius: 30px;
@@ -281,12 +283,58 @@ footer .fundo .redes {
 	gap: 10px;
 }
 
-footer .fundo .redes button{
+footer .fundo .redes button {
 	border: none;
-	background-color:transparent;
+	background-color: transparent;
 }
 
-footer .fundo .redes button a i{
+footer .fundo .redes button a i {
 	font-size: 25px;
 	color: #ffffff;
+}
+
+footer .fundo .redes button:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+@media screen and (max-width:325px) {
+	header .fundo {
+		width: 80vh;
+		height: 12vh;
+	}
+
+	header .fundo .logo img {
+		margin: 20px;
+	}
+
+
+	header .fundo .btn-abrir {
+		margin-right: 80px;
+	}
+
+	header .menu-desktop {
+		display: none;
+	}
+
+	header .menu-mobile nav ul li a {
+		padding-right: 5vh;
+	}
+
+	footer .contato {
+		display: none;
+	}
+
+	footer .fundo .logo img{
+		margin: 20px;
+	}
+
+	footer .fundo .redes{
+		margin-right: 12px;
+	}
+
+	footer .fundo .redes button a i{
+		font-size: 15px;
+
+	}
 }

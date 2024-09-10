@@ -142,7 +142,7 @@ table {
     display: grid;
     place-items: center;
     border: solid 2px #000;
-    padding-top: 50px;
+    padding-top: 13vh;
     height: 90vh;
 }
 
@@ -192,4 +192,27 @@ form textarea {
     color: white;
     border: none;
     height: 50px;
+}
+
+.botao button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+@media screen and (max-width:325px) {
+
+    .center {
+        height: 75vh;
+    }
+
+    .center .box {
+        width: 70%;
+        height: 80%;
+    }
+
+    .center .box h1 {
+        margin-left: 10px;
+        width: 100%;
+    }
 }
