@@ -203,6 +203,21 @@ table {
 	margin: 20px 0px 15px 0px;
 }
 
+@media screen  and (max-width:1400px){
+	
+	.reparte .anuncio .box-anuncio img{
+		height: 50vh;
+		width: 50vh;
+	}
+	
+}
+
+@media screen  and (max-width:400px){
+	.reparte .anuncio .box-anuncio img{
+		display: none;
+	}
+}
+
 @media screen and (max-width:325px) {
 
 	.title {

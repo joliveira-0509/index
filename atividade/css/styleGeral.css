@@ -293,9 +293,24 @@ footer .fundo .redes button a i {
 	color: #ffffff;
 }
 
-footer .fundo .redes button:hover{
+footer .fundo .redes button:hover {
 	cursor: pointer;
 	transform: scale(1.05);
+}
+
+@media screen and (max-width:400px) {
+	header .menu-desktop {
+		display: none;
+	}
+
+	footer .fundo .contato button {
+		display: none;
+	}
+
+	footer .fundo .redes button a i {
+		font-size: 15px;
+	}
+
 }
 
 @media screen and (max-width:325px) {
@@ -325,16 +340,15 @@ footer .fundo .redes button:hover{
 		display: none;
 	}
 
-	footer .fundo .logo img{
+	footer .fundo .logo img {
 		margin: 20px;
 	}
 
-	footer .fundo .redes{
+	footer .fundo .redes {
 		margin-right: 12px;
 	}
 
-	footer .fundo .redes button a i{
+	footer .fundo .redes button a i {
 		font-size: 15px;
-
 	}
 }
