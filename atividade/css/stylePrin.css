@@ -144,6 +144,7 @@ table {
 	justify-content: center;
 	width: 100%;
 	height: 70px;
+	padding-top: 15vh;
 }
 
 .title h1 {
@@ -160,20 +161,24 @@ table {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
+	height: 180vh;
 }
 
 .reparte .anuncio .box-anuncio {
-	margin-top: 25px;
+	margin-top: 15px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	height: 100vh;
+	justify-content: space-around;
+	height: 100%;
+	gap: -50px;
+
 }
 
 .reparte .anuncio .box-anuncio img {
-	width: 65vh;
-	height: 65vh;
-	margin-top: 50px;
+	width: 50vh;
+	height: 50vh;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .reparte .elementos {
